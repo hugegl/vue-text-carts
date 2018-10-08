@@ -3,6 +3,8 @@
 import Vue from "vue";
 import App from "./App";
 import router from "./router";
+//引入lib-flexible,px转rem布局
+import "lib-flexible/flexible";
 //引入 axios
 import Axios from "axios";
 //引入 vuex

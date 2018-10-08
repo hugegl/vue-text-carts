@@ -4,7 +4,7 @@
       <ul>
         <li v-for="item in categories" :key="item.id">
           <!-- 需要根据数据让类名 new 展示,即显示new上标 -->
-          <a href="#" :class="{new:104751 == item.id,active: curId == item.id}" @click="getCurId(item.id)">{{item.name}}"</a>
+          <a href="#" :class="{new:104751 == item.id,active: curId == item.id}" @click="getCurId(item.id)">{{item.name}}</a>
         </li>
       </ul>
     </div>
